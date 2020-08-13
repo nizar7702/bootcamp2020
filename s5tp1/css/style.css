@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500&display=swap');
+*{
+    margin:0;
+    padding:0;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.container{
+    height:100px;
+}
+.top-bar{
+    width: 80%;
+    height:80px;
+    margin:20px auto;
+}
+.logo{
+    width:20%;
+    float:left;
+}
+.logo img{
+    width:150px;
+    margin:8px auto;
+    cursor:pointer;
+
+}
+.menu-bar{
+    width: 60%;
+    float:left;
+    text-align:center;
+    
+}
+.menu-bar ul li{
+    display: inline-block;
+    cursor:pointer;
+    list-style:none;
+    text-decoration:none;
+    color:black;
+    padding-top:5px;
+    margin:15px 20px;
+}
+.active , .menu-bar ul li:hover{
+    border-top:2px solid #2c97e4;
+
+}
+.search-box{
+    width:20%;
+    float:right;
+}
+.input-search{
+    margin: 11px auto;
+    border-bottom:1px solid #2c97e4;
+    display:inline-flex;
+}
+.input-search input{
+    float:right;
+    padding:5px;
+    box-shadow:none;
+    outline:none;
+    border:0;
+    background:transparent;
+}
+.search-icon .fa{
+    color:#2c97e4;
+}
+.content{
+    width:80%;
+    height:80%;
+    margin: 0 auto;
+}
+.text{
+    width:50%;
+    height:100%;
+    float:left;
+}
+.text h1{
+    margin:100px 0 50px 70px;
+    line-height:40px;
+}
+.text p{
+    padding-left:70px;
+    line-height:25px
+}
+.text .play-btn{
+    width:50px;
+    margin:0 30px;
+    cursor:pointer;
+    vertical-align:middle ;
+    border-radius:50%;
+    box-shadow:0 0 16px 2px rgba(44,156,288,0.7);
+
+}
+.text span{
+    margin:50px 0;
+    display:table;
+}
+.banner{
+    width:50%;
+    height:100%;
+    float:right;
+    text-align:center;
+}
+.banner img{
+    width:100%;
+    margin: 100px auto;
+}

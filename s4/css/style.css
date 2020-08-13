@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+p{
+    font-family: 'Montserrat', sans-serif;
+    opacity:0.5;
+    background-color:red
+}
+body{
+    background:url(./../image/image3.jpg) fixed center top;
+}
+.border{
+    border:3px green dotted;
+
+}
+.border1{
+    border:3px green dashed;
+
+}
+.border2{
+    border:3px green solid;
+
+}
+.border3{
+    border:3px green double;
+
+}
+.btn{
+    background-color:gray;
+    color:white;
+    border:1px solid white;
+    border-radius: 50px 15px 15px 20px;
+    /*padding-top:20px;
+    padding-right:20px;
+    padding-buttom:20px;
+    padding-left:20px;
+    =padding:20px*/
+    /*padding-top:20px;
+    padding-right:10px;
+    padding-buttom:20px;
+    padding-left:10px;
+    =padding:20px 10px*/
+    /*padding-top:10px;
+    padding-right:15px;
+    padding-buttom:24px;
+    padding-left:30px;
+    =padding:10px 15px 24px 30px
+    appliquable aussi avec margin*/
+    padding:5px 10px 15px 20px;
+    margin:200px 100px 100px 150px;
+    width:50px;
+    height:35px;
+    
+}
+.btn:hover{
+    background-color:white;
+    color:grey;
+    border:1px solid grey;
+}
